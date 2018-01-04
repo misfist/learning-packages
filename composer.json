@@ -74,9 +74,9 @@
     },
     "extra": {
       "installer-paths": {
-        "../wordpress/wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-        "../wordpress/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
-        "../wordpress/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+        "./wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+        "./wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+        "./wp-content/themes/{$name}/": ["type:wordpress-theme"]
       }
     }
 }
